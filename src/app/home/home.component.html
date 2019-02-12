@@ -1,0 +1,22 @@
+
+<div class="container">
+    
+  <div class="row mb-5" *ngFor="let post of posts;">
+    <div class="col-10">
+      <h2> {{post.title}}</h2>
+      <button *ngIf="authService.checkIfLoggedIn()" (click)="delete(post)" class="btn btn-danger float-right">Delete</button>
+      <button *ngIf="authService.checkIfLoggedIn()" (click)="editPost(post)" class="btn btn-info float-right">Edit Post</button>
+       <p> {{ post.body | limit:450}} <button (click)="showDetails(post)">Details</button></p>
+       <small class='font-weight-bold'>Author: {{post.author}} - {{post.date}}</small>
+       <span (click)="liked(post)"><img [src]='likeUrl' width="60px">{{post.likeCounter}}</span>
+       <span (click)="addComment()" class="ml-4">Add Comment <img [src]='commentUrl' width="25px"></span>
+       <div *ngIf="comment" class="comments">
+         <p *ngFor="let com of comment" class="small">{{com.body}}</p>
+       </div>
+      </div>
+  </div>
+    
+
+</div>
+
+

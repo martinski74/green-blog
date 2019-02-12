@@ -1,0 +1,36 @@
+ <h1 class=" first text-center text-white">Welcome to my blog</h1>
+<div class="container text-white">
+  <form #loginForm="ngForm" (ngSubmit)="login()">
+      <h1 class="text-center">Login</h1>
+    <div class="form-group">
+      <label for="exampleInputEmail1">User Name</label>
+      <input type="text"
+       class="form-control"
+        id="username"
+        placeholder="Username"
+        [(ngModel)]="model.username"
+        name="username"
+        #username="ngModel"
+        required
+          />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password"
+       class="form-control"
+        id="exampleInputPassword1"
+         placeholder="Password"
+         [(ngModel)]="model.password"
+        name="password"
+        #password="ngModel"
+        required 
+         />
+    </div>
+  
+    <button type="submit" class="btn bg-light">Submit</button>
+  </form>
+  <div *ngIf="loginFailed" class="alert alert-danger">
+    {{errorMessage}}
+  </div>
+
+</div>

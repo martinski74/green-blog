@@ -1,0 +1,27 @@
+.container{
+    background-color: floralwhite;
+    opacity: 0.9;
+    margin-top: 120px;
+    padding: 50px 50px 0 50px;
+}
+.row {
+    border-bottom: 1px solid;
+}
+.btn-danger {
+    margin-right: -170px !important;
+}
+.btn-info {
+    margin-right: -85px !important;
+}
+img{
+    margin-left: 10px;
+}
+span:hover {
+    cursor: pointer;
+}
+.comments{
+    border: 1px solid gray;
+    background-color: azure;
+    margin-left: 200px;
+}
+

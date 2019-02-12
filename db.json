@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 5,
+      "title": "The bottom line",
+      "body": "Honey is higher in fructose than glucose. Fructose is sweeter than glucose, so you may be able to use a smaller amount of honey in your food or drink without sacrificing sweetness. The trace amounts of vitamins and minerals found in honey may also have added health benefits.Raw, unpasteurized honey contains trace amounts of local pollen, which may help desensitize allergic reactions.",
+      "author": "Martin Dobrudzhanski",
+      "date": "Tue Feb 05 2019",
+      "likeCounter": 0
+    },
+    {
+      "likeCounter": 0,
+      "title": "Easy vegetable stir-fry",
+      "body": "2 tbsp sunflower oil\n4 spring onions, cut into 4cm/1½in lengths\n1 garlic clove, crushed\npiece fresh root ginger, about 1cm/½in, peeled and grated\n1 carrot, cut into matchsticks\n1 red pepper, cut into thick matchsticks\n100g/3½oz baby sweetcorn, halved\n1 courgette, cut into thick matchsticks\n150g/5½oz sugar-snap peas or mangetout, trimmed\n2 tbsp hoisin sauce\n2 tbsp low-salt soy sauce",
+      "author": "Martin Alexandrov",
+      "id": 6,
+      "date": "Tue Feb 05 2019"
+    },
+    {
+      "id": 7,
+      "title": " Seafood paella, Spain",
+      "body": "The sea is lapping just by your feet, a warm breeze whips the tablecloth around your legs and a steamy pan of paella sits in front of you. Shrimp, lobster, mussels and cuttlefish combine with white rice and various herbs, oil and salt in this Valencian dish to send you immediately into holiday mode. Though if you have it in Spain, you're probably there already.",
+      "author": "Martin Dobrudzhanski",
+      "date": "Tue Feb 05 2019",
+      "likeCounter": 0
+    },
+    {
+      "id": 8,
+      "title": "Chicken rice, Singapore",
+      "body": "Often called the \"national dish\" of Singapore, this steamed or boiled chicken is served atop fragrant oily rice, with sliced cucumber as the token vegetable. Variants include roasted chicken or soy sauce chicken. However it's prepared, it's one of Singapore's best foods. The dipping sauces -- premium dark soy sauce, chili with garlic and pounded ginger -- give it that little extra oomph to ensure whenever you're not actually in Singapore eating chicken rice, you're thinking of it.",
+      "author": "Martin Alexandrov",
+      "date": "Tue Feb 05 2019",
+      "likeCounter": 0
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
