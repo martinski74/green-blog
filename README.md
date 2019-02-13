@@ -1,6 +1,7 @@
 # GreenBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
+Direct link - [https://martinski74.github.io/green-blog/home]
 
 ## Development server
 Run first `json-server --watch db.json` to start the db jason-server
