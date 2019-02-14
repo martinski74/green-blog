@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": 5,
-      "title": "The bottom line",
+      "title": "The bottom line 1",
       "body": "Honey is higher in fructose than glucose. Fructose is sweeter than glucose, so you may be able to use a smaller amount of honey in your food or drink without sacrificing sweetness. The trace amounts of vitamins and minerals found in honey may also have added health benefits.Raw, unpasteurized honey contains trace amounts of local pollen, which may help desensitize allergic reactions.",
       "author": "Martin Dobrudzhanski",
       "date": "Tue Feb 05 2019",
@@ -33,7 +33,13 @@
       "likeCounter": 0
     }
   ],
-  "comments": [],
+  "comments": [
+    {
+      "likeCounter": 0,
+      "id": 1,
+      "date": "Wed Feb 13 2019"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
